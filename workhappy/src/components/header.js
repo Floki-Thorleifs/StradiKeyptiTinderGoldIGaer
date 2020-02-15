@@ -6,17 +6,15 @@ export default function Header() {
   return (
 
     <div className="App-header">
-      <div className="header logo">
+      <div className="header">
         <img src={Logo} className="logo" />
-      </div>
-      <div className="navs">
-        <ul>
-          <li className="nav">Um okkur</li>
-          <li className="nav">Fyrirtæki</li>
-          <li className="nav">Einstaklingar</li>
-          <li className="nav">Hafa samband</li>
-          <li className="nav blue">Innskráning</li>
-        </ul>
+        <div className="navs">
+          <a className="nav">Um okkur</a>
+          <a className="nav">Fyrirtæki</a>
+          <a className="nav">Einstaklingar</a>
+          <a className="nav">Hafa samband</a>
+          <a className="nav blue">Innskráning</a>
+        </div>
       </div>
     </div>
   )
