@@ -9,7 +9,7 @@ export default function Header() {
       <div className="header logo">
         <img src={Logo} className="logo" />
       </div>
-      <nav className="navs">
+      <div className="navs">
         <ul>
           <li className="nav">Um okkur</li>
           <li className="nav">Fyrirtæki</li>
@@ -17,8 +17,7 @@ export default function Header() {
           <li className="nav">Hafa samband</li>
           <li className="nav blue">Innskráning</li>
         </ul>
-      </nav>
-      <p>Halló</p>
+      </div>
     </div>
   )
 };
