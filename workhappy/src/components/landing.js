@@ -17,10 +17,10 @@ export default function Landing() {
             fyrirtækja.
           </p>
           <div className="yellow-buttons">
-            <a className="yellow-button" href="/">
+            <a className="blue" href="/">
               Skrá mitt fyrirtæki
             </a>
-            <a className="yellow-button" href="/">
+            <a className="blue" href="/">
               Skrá mitt fyrirtæki
             </a>
           </div>
@@ -29,7 +29,7 @@ export default function Landing() {
       </div>
       <div className="box white">
         <img className="box-picture" src={Pic2} alt="Woman" />
-        <p className="box-text center">
+        <p className="box-text">
           Aukin afköst með nútímalegu starfsumhverfi og lausnum fyrir
           sameiginleg vinnusvæði.
         </p>
