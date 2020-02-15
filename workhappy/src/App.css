@@ -1,5 +1,13 @@
+p {
+  font-family: Playfair Display;
+}
+
 .App {
   text-align: center;
+}
+
+.App-body {
+  background-color: lightgray;
 }
 
 .App-logo {
@@ -53,7 +61,7 @@
 .blue {
   display: flex;
   padding: 10px 15px;
-  background: #3A1CFF;
+  background: #3a1cff;
   color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 5px;
@@ -79,4 +87,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.box {
+  height: 30vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5vh;
+}
+
+.box-picture {
+  width: 15%;
+}
+
+.yellow-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.yellow-buttons {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.button {
+  text-decoration: overline;
+  font-size: larger;
+}
+
+.box-title {
+  font-size: 24pt;
+}
+
+.box-text {
+  font-size: 2vh;
+  width: 50%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.yellow {
+  background-color: #ffe01b;
+}
+
+.pink {
+  background-color: #ffebeb;
+}
+
+.white {
+  background-color: #ffffff;
 }
